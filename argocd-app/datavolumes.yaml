@@ -10,7 +10,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: fedora-vm-argocd-sample/fedora-volumes
+    path: fedora-volumes
     repoURL: https://github.com/dharmesh-b/fedora-vm-argocd-sample.git
     targetRevision: HEAD
   syncPolicy:
