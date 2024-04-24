@@ -51,7 +51,7 @@ metadata:
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
-  name: cdi.kubevirt.io:view
+  name: cdi.kubevirt.io:edit
 subjects:
 - kind: ServiceAccount
   name: default
