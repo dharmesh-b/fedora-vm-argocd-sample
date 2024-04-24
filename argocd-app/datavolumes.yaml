@@ -1,5 +1,6 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
+namespace: openshift-gitops
 metadata:
   name: datavolumes
   annotations:
