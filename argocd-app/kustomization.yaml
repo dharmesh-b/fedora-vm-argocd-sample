@@ -4,6 +4,7 @@ namespace: openshift-gitops
 resources:
 - namespaces.yaml
 - gitops-rbac.yaml
-- datavolumes.yaml
-- fedora-vm.yaml
-
+#- datavolumes.yaml
+#- fedora-vm.yaml
+- datavolumes-application.yaml
+- fedora-vm-application.yaml
