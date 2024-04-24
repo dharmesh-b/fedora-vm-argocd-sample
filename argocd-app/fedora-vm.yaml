@@ -10,8 +10,8 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: fedora-vm-argocd-sample/fedora-vm
-    repoURL: https://github.com/emcon33/Virtualization-on-ROSA.git
+    path: fedora-vm
+    repoURL: https://github.com/dharmesh-b/fedora-vm-argocd-sample.git
     targetRevision: HEAD
   syncPolicy:
     automated: {}
