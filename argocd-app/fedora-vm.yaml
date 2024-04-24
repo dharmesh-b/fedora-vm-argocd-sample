@@ -1,0 +1,19 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: fedora-vm
+  annotations:
+    argocd.argoproj.io/sync-wave: "3"
+spec:
+  destination:
+    namespace: kubevirt-gitops
+    server: https://kubernetes.default.svc
+  project: default
+  source:
+    path: fedora-vm-argocd-sample/fedora-vm
+    repoURL: https://github.com/emcon33/Virtualization-on-ROSA.git
+    targetRevision: HEAD
+  syncPolicy:
+    automated: {}
+    syncOptions:
+    - CreateNamespace=true
