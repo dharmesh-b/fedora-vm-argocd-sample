@@ -6,5 +6,8 @@ resources:
 - gitops-rbac.yaml
 #- datavolumes.yaml
 #- fedora-vm.yaml
+
+patchesStrategicMerge:
 - datavolumes-application.yaml
 - fedora-vm-application.yaml
+
