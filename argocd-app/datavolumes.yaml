@@ -10,8 +10,8 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: datavolumes/overlays/kubernetes
-    repoURL: https://github.com/dharmesh-b/kubevirt-gitops.git
+    path: datavolumes
+    repoURL: https://github.com/dharmesh-b/fedora-vm-argocd-sample.git
     targetRevision: HEAD
   syncPolicy:
     automated: {}
