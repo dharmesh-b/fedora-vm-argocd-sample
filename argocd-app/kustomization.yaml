@@ -7,7 +7,7 @@ resources:
 #- datavolumes.yaml
 #- fedora-vm.yaml
 
-patchesStrategicMerge:
-- datavolumes-application.yaml
-- fedora-vm-application.yaml
+patches:
+- datavolumes.yaml
+- fedora-vm.yaml
 
