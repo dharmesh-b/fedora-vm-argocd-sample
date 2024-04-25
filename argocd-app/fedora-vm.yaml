@@ -1,8 +1,9 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
-namespace: openshift-gitops
+
 metadata:
   name: fedora-vm
+  namespace: openshift-gitops
   annotations:
     argocd.argoproj.io/sync-wave: "3"
 spec:
