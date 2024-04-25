@@ -18,7 +18,7 @@ spec:
       source:
         pvc:
           #name: fedora
-          name: fedora-722ac1d6b4f1
-          #name: fedora-custom
-          #namespace: kubevirt-os-images
-          namespace: openshift-virtualization-os-images
+          #name: fedora-722ac1d6b4f1
+          name: fedora-custom
+          namespace: kubevirt-os-images
+          #namespace: openshift-virtualization-os-images
