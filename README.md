@@ -13,7 +13,7 @@ git clone https://github.com/dharmesh-b/fedora-vm-argocd-sample.git
 
 login to as cluster-admin using
 -------------------------------
-oc login -u cluster-admin -p <<pwd>>> <<https://xxxx>>
+oc login -u cluster-admin -p <<pwd>> <<https://xxxx>>
 
 Provision Fedora VM using below command
 ----------------------------------------
