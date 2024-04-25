@@ -35,11 +35,11 @@ spec:
             storage: 30Gi
       source:
         pvc:
-          #name: fedora-custom
+          name: fedora-custom
           #name: fedora
-          name: fedora-722ac1d6b4f1
-          namespace: openshift-virtualization-os-images
-          #namespace: kubevirt-os-images
+          #name: fedora-722ac1d6b4f1
+          #namespace: openshift-virtualization-os-images
+          namespace: kubevirt-os-images
   running: true
   template:
     metadata:
